@@ -1,0 +1,14 @@
+let myVar = 'A'
+switch(myVar) {
+	case 'A':
+        console.log("Hey");
+        
+	case 'B':
+		console.log("Foo" + "Bar");
+		
+	case 'C':
+		console.log("Bar");
+		
+	default:
+		console.log('default')
+}
