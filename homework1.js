@@ -23,11 +23,21 @@
 //     })
 //   }
 
-module.exports = function getShortMessages(messages){
-        return messages.filter(function (item){
-            return item.message.length < 50
-              }).map(function(item) {
-                return item.message
-            })
-         }
+// module.exports = function getShortMessages(messages){
+//         return messages.filter(function (item){
+//             return item.message.length < 50
+//               }).map(function(item) {
+//                 return item.message
+//             })
+//          }
 
+
+module.exports = function checkUsersValid(goodUsers) {
+    return function allUsersValid(submittedUsers) {
+      return submittedUsers.every(function(submittedUser) {
+        return goodUsers.some(function(goodUser) {
+          return goodUser.id === submittedUser.id
+        })
+      })
+    }
+  }

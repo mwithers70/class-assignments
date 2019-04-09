@@ -1,28 +1,21 @@
 var billAmount = 100;
 
 function gratuity(){
-    for (var i = 100; i >= 100; i++);
-        billAmount += 100;
+    return billAmount * 0.2;
 }
 
-return billAmount * 0.2;
-
-function totatWithGrat () {
-    var sum = (100);
-    for (var i = 100; i >= 100; i++);
-    sum = billAmount * gratuity
-
-return billAmount + gratuity
-
-console.log(sum)
-
-
-var calculator = {
-    add: function (a,b){
-        return a+b;
-    }
+function totalWithGrat(amount){
+    return gratuity () + amount;
 }
-calculator.add(2,3)
+
+console.log("your total, including gratuity is: $" + totalWithGrat(billAmount).toFixed(2));
+
+// var calculator = {
+//     add: function (a,b){
+//         return a+b;
+//     }
+// }
+// calculator.add(2,3)
 //Anonymous function
 
 // var arrayWow = [ //first part of array, so ['anonymous', 'array'] = 0
