@@ -25,13 +25,13 @@ var calculator = {
 calculator.add(2,3)
 //Anonymous function
 
-var arrayWow = [ //first part of array, so ['anonymous', 'array'] = 0
-    ['anonymous', 'array'], //second part of an array, so 'array' = 1
-    {name: 'anonymous object'},
-    function(){return 'Anonymous function'}
-]
+// var arrayWow = [ //first part of array, so ['anonymous', 'array'] = 0
+//     ['anonymous', 'array'], //second part of an array, so 'array' = 1
+//     {name: 'anonymous object'},
+//     function(){return 'Anonymous function'}
+// ]
 
-console.log(arrayWow[0][1]); //to find array
-console.log(arrayWow[1].name); //to find 'anonymous object' within this array
-console.log(arrayWow[2]()); //anonymous function
-}
+// console.log(arrayWow[0][1]); //to find array
+// console.log(arrayWow[1].name); //to find 'anonymous object' within this array
+// console.log(arrayWow[2]()); //anonymous function
+// }
