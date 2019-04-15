@@ -1,0 +1,24 @@
+.Second-Page{
+    margin-left: 80%;
+    }
+
+.ThirdPage{
+    margin-left: 80%;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: center;
+ }
+
+ .button{
+     background-color: yellow;
+     text: black;
+     font-size: 24px;
+}

@@ -1,0 +1,29 @@
+.pie{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: green;
+}
+
+.pie{
+    background-image: linear-gradient(to right, transparent 50%, blue 0)
+}
+
+/* .pie::before{
+    content: ;
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+} */
+
+.pie::before {
+    content: ;
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+  }
+  
+
+
+
+  

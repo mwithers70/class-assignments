@@ -1,0 +1,39 @@
+#right-up{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    border-radius: 0 200px 0 0;
+}
+
+#right-down{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    border-radius: 0 0 200px 0;;
+}
+
+#left-up{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    border-radius: 200px 0 0 0;
+}
+
+#left-down{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    border-radius: 0 0 0 200px;
+}

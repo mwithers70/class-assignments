@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+        <form>
+                <label for="firstName">What is your first name?</label><br>
+                <input type="text" name="firstName"><br>
+
+                <div class="paddingBottom">
+                <label for="age">What is your age?</label><br>
+                <input type="radio" name="age" value="0-25" checked>0-25<br>
+                <input type="radio" name="age" value="26-50">26-50<br>
+                <input type="radio" name="age" value="51-75">51-75<br>
+                </div>
+                
+                <input type="submit" value="Submit">
+
+                <div class="paddingBottom">
+                <label for="comment">Comments:</label><br>
+                <textarea name="comment" maxlength="50"></textarea>
+                </div>
+
+                <div class="paddingBottom">
+                    <label for="dropdown">Choose an option:</label>
+                    <br>
+                   <select>
+                        <option>choice 1</option>
+                        <option>choice 2</option>
+                        <option>choice 3</option>
+                   </select>
+                </div>
+
+                <input type="submit" value="Submit">
+        </form>
+    
+</body>
+</html>
