@@ -32,7 +32,10 @@ const div = document.querySelector('h2.highlight').parentElement;
 const all = Array.from(document.querySelectorAll('section h2'))
     .filter(function(grab){return grab.parentNode
     });
-     console.log(all)
+     console.log(all) 
 
-    //create an array.from with .filter to isolate the h2's
-
+const x2 = Array.from(document.querySelectorAll('section h2'))
+    .map(function(grab){return grab.parentElement;
+    })
+        console.log(x2)
+//used both .filter and .map to see the difference in the selection of h2.
