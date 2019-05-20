@@ -91,7 +91,7 @@ public class Lab{
         //name starts at zero, so space present at position 7.
         System.out.println(String.format("Does %s contain the word son: %b", fullName, fullName.contains("son")));
         System.out.println(String.format("What are the last 5 letters in %s : %s", fullName, fullName.substring(fullName.length()-5)));
-        System.out.println(String.format("Does the %s contain an apostrophe or dash: %b", fullName, fullName.contains("apostrophe or dash")));
+        System.out.println(String.format("Does %s contain an apostrophe or dash: %b", fullName, (fullName.contains("'") || fullName.contains("-"))));
     }
 
 }
