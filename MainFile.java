@@ -59,7 +59,10 @@ public class MainFile {
             } else {
                 System.out.println("You cannot start to draw Social Security");
             }
+                System.out.print("Would you like to repeat the process answer Y(Yes),N(No)");
+            
         } while (scanner.next().toLowerCase().charAt(0) == 'y');
+        
 
         //Lab Step #2 (switch statements)
         switch (employment.toLowerCase()) {
