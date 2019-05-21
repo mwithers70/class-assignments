@@ -1,14 +1,14 @@
-var billAmount = 100;
+// var billAmount = 100;
 
-function gratuity(){
-    return billAmount * 0.2;
-}
+// function gratuity(){
+//     return billAmount * 0.2;
+// }
 
-function totalWithGrat(amount){
-    return gratuity () + amount;
-}
+// function totalWithGrat(amount){
+//     return gratuity () + amount;
+// }
 
-console.log("your total, including gratuity is: $" + totalWithGrat(billAmount).toFixed(2));
+// console.log("your total, including gratuity is: $" + totalWithGrat(billAmount).toFixed(2));
 
 // var calculator = {
 //     add: function (a,b){
@@ -28,3 +28,11 @@ console.log("your total, including gratuity is: $" + totalWithGrat(billAmount).t
 // console.log(arrayWow[1].name); //to find 'anonymous object' within this array
 // console.log(arrayWow[2]()); //anonymous function
 // }
+
+
+function add(number1, number2) {
+	return number1 + number2;
+}
+
+var sum = add(1,2);
+console.log(sum); // 3
