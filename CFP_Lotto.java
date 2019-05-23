@@ -77,7 +77,7 @@ public class CFP_Lotto {
                 if(num5>65){num5 -= 65;}
 
                 System.out.println("Lottery Numbers: " + num1 + " " + num2 + " " + num3 + " " + num4 + " " + num5 + "  Magic Ball: " + magicBall);
-                System.out.println("Would you to go another round? ");
+                System.out.println("Want to play another round? ");
                 String againResponse = scanner.next();
                 if(againResponse.toUpperCase().equals("YES") || againResponse.toUpperCase().equals("Y")){
                     again=true;
