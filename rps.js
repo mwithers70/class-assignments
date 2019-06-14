@@ -1,40 +1,31 @@
-var userChoice = prompt("Do you choose rock, paper or scissors?");
-var computerChoice = Math.random();
-if (computerChoice <0.34){
-    computerChoice = "rock";
-}else if(computerChoice <=0.67){
-    computerChoice = "paper";
+var weapons = ["rock","paper","scissors"];
+
+const player1= "Player 1";
+const player2= "Player 2";
+var player1wins= 0;
+var player2wins= 0;
+var player1weapons= null;
+var player2weapons= null;
+
+while(player1wins<3 && player2wins<3){
+var player1weapons = weapons[Math.floor(Math.random() * weapons.length)]
+var player2weapons = weapons[Math.floor(Math.random() * weapons.length)]
+
+if(player1weapons === player2weapons){
+console.log("Tie")
+
+}else if(player1weapons ="scissors" && player2weapons == "Paper" || player1weapons == "rock" && player2weapons =="scissors" ||
+player1weapons== "Paper" && player2weapons =="rock"){
+
+player1wins++
+console.log("Player 1 wins")}    
+
+else{ player2wins++
+    console.log("Player 2 wins")
 }
-else{
-    computerChoice = "scissors";
 }
-var compare = function(choice1,choice2){
-    if(choice1===choice2){
-        return "The result is a tie!";
-    }
-    if(choice1==="rock"){
-        if(choice2==="scissors"){
-            return "rock wins";
-        }
-        else{
-            return "paper wins";
-        }
-    }
-    if(choice1==="paper"){
-        if(choice2==="rock"){
-            return "paper wins";
-        }
-        else{
-            return "scissors wins";
-        }
-    }
-    if(choice1==="scissors"){
-        if(choice2==="rock"){
-            return "rock wins";
-        }
-        else{
-            return "scissors wins";
-        }
-    }
-};
-compare(userChoice,computerChoice);
+let Winner
+if ( player1wins===3)
+{Winner = player1}
+else{Winner = player2}
+console.log (Winner, "Wins the Game")
